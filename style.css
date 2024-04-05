@@ -1,3 +1,5 @@
+@media (min-width:720px)
+
 :root {
     --bs-tertiary-bg-rgb: #ffc107 !important;
 }
@@ -109,7 +111,7 @@ ol{
     transform: scale(1.1);
 }
 
-@media (max-width:360px) {
+@media (max-width:719px) {
 
     :root {
         --bs-tertiary-bg-rgb: #ffc107 !important;
@@ -127,6 +129,7 @@ ol{
     .row{
         margin:2em;
         max-width: 100vw;
+        display: block;
     }
     
     .titulo{
@@ -160,7 +163,6 @@ ol{
     
     .list-ingredients{
         margin-bottom: 3em;
-        display: flex;
         background-color:rgb(250, 237, 219);
     }
     
@@ -206,6 +208,7 @@ ol{
     }
     
     .col-3{
+        width:100wv;
         padding-top: 6em;
         align-items: center;
         display: flex;
